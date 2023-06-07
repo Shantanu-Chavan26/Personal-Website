@@ -6,6 +6,7 @@
 
 
 }
+
 .FIRST
 {
     position:relative;
@@ -49,12 +50,12 @@ nav ul li a:hover
 .Intro
 {
     margin-left:8%;
-    margin-top:15%;
+    margin-top:8%;
 }
 
 .Intro h1
 {
-    font-size:50px;
+    font-size:70px;
     color:yellow;
     margin-bottom: 20px;
 }
@@ -66,7 +67,7 @@ span
 .Intro p
 {
   color: white;
-  font-size: large;
+  font-size: x-large;
   line-height: 22px;
 
 }
@@ -113,27 +114,35 @@ span
 
  }
  .logo
- {
+ { 
     width: 200px;
     margin-top: 60px;
  }
  .Socials
  {
     position:absolute;
-    right:45px;
+    right:50px;
+    height:90vh;
+    width: 100vh;
+    align-items: flex-end ;
+    justify-content: center;
     display: flex;
     flex-direction: column;
-    margin-left:50px;
-    gap: 20px;
+    gap: 50px;
     
-    
+
  }
  .Socials a
- {
+
+ {  
+   display: flex;
+   
+   flex-wrap: wrap;
+   flex-direction: column;
+   align-items: center ;
     font-size: 60px;
     color: #fff;
-    margin-bottom: 10px;
-    margin-left: 200px;
+
  }
 
 
