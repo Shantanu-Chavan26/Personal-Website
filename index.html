@@ -4,58 +4,157 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personale Portfolio Website</title>
+    <title>Personal Portfolio</title>
+    <link rel="icon" href="images\favicon.ico">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.lineicons.com/4.0/lineicons.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <style>
+         body {
+            height: 100%;
+            margin: 0;
+            background-color: black;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
 
+        .About-me {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            height: 100vh;
+            background-color: black;
+            
+        }
 
+        .Upper-container,
+        .middle-container,
+        .bottom-container {
+            flex: 1;
+            width: 100%;
+            padding: 30px;
+            text-align: center;
+            justify-content: space-evenly;
+            color:white;
+           margin-top: 100px;
+           margin-bottom: 50px;
+        }
+        span 
+        {
+           
+           color: orange;
+           font-weight: bolder;
+        }
+        h2{
+            color: yellow;
+        }
+        .para
+        {
+            display: block;
+            margin: 4vh auto;
+            width: 50vw;
+            color:white ;
+            font-family: Arial, sans-serif;
+            font-weight: 200;
+        }
+        .UCH
+        {
+            padding: 30px;
+            font-size: x-large;
+        }
+        .MCH
+        {
+            padding: 30px;
+        }
+        .Paragraph {
+            font-family: Arial, sans-serif;
+            font-weight: 200;
+        }
+        hr
+        { 
+            border: 3px solid white;
+            width: 20%;
+        }
+        .UPHR
+        {
+            color: rgb(255, 255, 255);
+            width: 100%;
+        }
+        .G
+        {
+            color: rgb(30, 129, 215);
+        }
+        .D
+       {
+          color: red;
+       }
+       .S
+       {
+         color: rgb(124, 124, 27) ;
+       }    
+       .C
+       {
+        color: green;
+       }  
+
+        
+    </style>
 </head>
 <body>
     <div class="FIRST">
         <nav>
             <img src="images/Screenshot 2023-06-07 171630.png" class="logo">
-            <ul>
            
-            <li><a href="#">About me</a></li>
-            <li><a href="#">Experience</a></li>
-            <li><a href="#">Certifications</a></li>
-            <li><a href="#">Contact me</a></li>
-          
-
-            </ul>
-
-      
-
         </nav>
         <div class="Intro">
-         <h1>Hi I,m <span>Shantanu</span></h1>
-         <p>This is my official portfolio website to show all my
-            <br>Details and work experience.
-
-         </p>
-         <a href="#">DOWNLOAD CV</a>
+            <h1>Hi! I'm <span>Shantanu</span></h1>
+            <p>This is my official portfolio website to showcase my work experience.</p>
+            <a href="#">DOWNLOAD CV</a>
+            <button class="btn">
+                <a class="contact-me-btn" href="mailto:s.chaaavan26@email.com" target="_blank">CONTACT ME</a>
+            </button>
+          
 
         </div>
         <div class="Picture">
-        <img src="images/shape.png" class="Shape">
-        <img src="images/IMG_4727-removebg.png" class="ME">
-        <div class="Socials">
-
-            <a href="https://www.linkedin.com/in/shantanu-chavan-24aa17246/"><i class="lni lni-linkedin-original"></i></a>
-            <a href="https://github.com/Shantanu-Chavan26"><i class="lni lni-github"></i></a>
-            <a href="https://www.instagram.com/shantanu_._c/"><i class="lni lni-instagram-original"></i></a>
-    
-    
-    
-           </div>
+            <img src="images/shape.png" class="Shape">
+            <img src="images/IMG_4727-removebg.png" class="ME">
+            <div class="Socials">
+                <a href="https://www.linkedin.com/in/shantanu-chavan-24aa17246/"><i class="lni lni-linkedin-original"></i></a>
+                <a href="https://github.com/Shantanu-Chavan26"><i class="lni lni-github"></i></a>
+                <a href="https://www.instagram.com/shantanu_._c/"><i class="lni lni-instagram-original"></i></a>
+               
+            </div>
+            
         </div>
-      
-    </div>
+        
+        <div class="About-me">
+            <div class="Upper-container">
+                <hr class="UPHR">
+                <h2 class="UCH">Who Am <span>I?</span></h2>
+                <img src="https://media2.giphy.com/media/bGgsc5mWoryfgKBx1u/giphy.gif?cid=ecf05e472u2m9phany7x46ot76klqoupbca2dzmwh6sd8cjz&ep=v1_gifs_search&rid=giphy.gif&ct=g"width="200" alt="web-dev-gif">
+                <br>
+                <p class="Paragraph"><span class="para">I am a final year Computer Science student studying at MIT ADT University. My passion lies in web development, and I aspire to become a full stack web developer. I am dedicated to expanding my knowledge and skills in various web technologies to create dynamic and user-friendly applications.I am a final year Computer Science student studying at MIT ADT University. My passion lies in web development, and I aspire to become a full stack web developer. I am dedicated to expanding my knowledge and skills in various web technologies to create dynamic and user-friendly applications.</span>
     
+                <span class="para" >ddition to my passion for web development, I have a hungry personality that drives me to put in the hard work necessary to achieve my goals. I am always eager to learn and explore new technologies, frameworks, and programming languages to stay up-to-date with the rapidly evolving field of web development.</span> </p>
+            </div>
+            <hr>
+            <div class="middle-container"> 
+                <h2 class="MCH">My <span>Experiences</span></h2>
+                <img src="https://i.gifer.com/2P3e.gif" width="200" alt="Google-gif">
+                <p class="Paragraph"> <span class="para"> As a passionate student of technology, I embarked on an incredible journey when I became a member of the <b> <span class="G">Google</span> <span class="D">Developer </span> <span class="S">Student </span> <span class="C">Club</span> (GDSC) </b>at my college. </span> <span class="para">Being a part of <b>GDSC</b> allowed me to dive deep into the realm of cutting-edge technologies and explore their practical applications. Through hands-on workshops, engaging events, and collaborative projects, I was able to expand my knowledge and skills in a multitude of areas.</span> </p>
+            </div>
+    
+    
+                
+        </div>
+       
 
-   
+    
+  
+    
 </body>
 </html>
